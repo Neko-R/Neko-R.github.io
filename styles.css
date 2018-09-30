@@ -1,3 +1,7 @@
 .grid{
     display: grid;
 }
+
+img {
+    border-radius: 50%;
+}
