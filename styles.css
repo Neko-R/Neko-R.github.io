@@ -1,5 +1,12 @@
+.header { grid-area: header; }
+.sidebar { grid-area: menu; }
+.mainContent { grid-area: footer; }
+
 .grid{
     display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu menu footer footer footer footer';
 }
 
 img {
