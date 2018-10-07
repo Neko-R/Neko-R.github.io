@@ -7,7 +7,7 @@ body{
     display: grid;
     margin: 0 auto;
     grid-template-columns: 600px 600px 600px;
-    grid-template-rows: 250px 1050px;
+    grid-template-rows: 250px 1150px;
     row-gap: 1.6em;
 }
 
@@ -138,18 +138,17 @@ h3{
 
 
 .icons{
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     float: left;
+    margin-right: 5px;
 }
 
 .info{
-    float: right;
+    margin: 5px;
 }
 
 .contact, .social{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
 }
